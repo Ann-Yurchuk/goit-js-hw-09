@@ -51,7 +51,6 @@ if (data < 1000) {
 
   }
 
-  
 function convertMs(ms) {
   const second = 1000;
   const minute = second * 60;
@@ -62,7 +61,6 @@ function convertMs(ms) {
   const hours = addLeadingZero(Math.floor((ms % day) / hour));
   const minutes = addLeadingZero(Math.floor(((ms % day) % hour) / minute));
   const seconds = addLeadingZero(Math.floor((((ms % day) % hour) % minute) / second));
-
 
   daysRef.textContent = days;
   hoursRef.textContent = hours;
