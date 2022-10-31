@@ -16,3 +16,12 @@ img {
   display: block;
   max-width: 100%;
 }
+
+
+.timer {
+  text-align: center;
+  display: flex;
+  gap: 10;
+}
+
+
